@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Home-Work on HTML</title>
+</head>
+	<body>
+		<!--Used h1 to h6-->
+			<h1>h1 to h6 element</h1>
+		<h1>hello world!</h1>
+		<h2>Lorem ipsum dolor sit amet</h2>
+		<h3>Lorem ipsum dolor sit amet</h3>
+		<h4>Lorem ipsum dolor sit amet</h4>
+		<h5>Lorem ipsum dolor sit amet</h5>
+		<h6>Lorem ipsum dolor sit amet</h6>
+
+		<h1>The paragraph element</h1>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+
+		<h1>The image element</h1>
+
+		<img src="img/mountain.jpg"	alt="mountain">
+
+		<h1>The a element</h1>
+
+		<p><a href="https://www.pexels.com/search/mountains/">Visit Pexels.com for more pictures!</a></p>
+
+		<h1>The abbr element</h1>
+
+		<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+		<h1>The address element</h1>
+		<address>
+			written by <a href="shammabzakir@gmail.com">Shamma</a><br>
+			visit us at:<br>
+			example.com<br>
+			Dhaka, Bangladesh
+		</address>
+		
+		<h1>The article element</h1>
+
+<article>
+  <h2>Google Chrome</h2>
+  <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+</article>
+
+<article>
+  <h2>Mozilla Firefox</h2>
+  <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+</article>
+
+<article>
+  <h2>Microsoft Edge</h2>
+  <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+
+  <h1>The aside element</h1>
+  <aside>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</aside>
+<h1>The b element</h1>
+
+<p>This is normal text - <b>and this is bold text</b>.</p>
+
+<h1>The bdi element</h1>
+
+<p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+
+<ul>
+ <li>User <bdi>hrefs</bdi>: 60 points</li>
+ <li>User <bdi>jdoe</bdi>: 80 points</li>
+ <li>User <bdi>إيان</bdi>: 90 points</li>
+</ul>
+
+<h1>The bdo element</h1>
+
+<p>This paragraph will go left-to-right.</p>  
+<p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p> 
+
+<h1>The blockquote element</h1>
+
+<p>Here is a quote from WWF's website:</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote> 
+
+<h1>The button Element</h1>
+
+<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+<h1>The canvas element</h1>
+
+<canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 80, 100);
+</script>
+
+<h1>The cite element</h1>
+
+<img src="img/monalisa.jpg" alt="Monalisa">
+<p><cite>Monalisa</cite> by Leonardo da Vinci painted in 1503.</p>
+
+<h1>The code element</h1>
+
+<p>The HTML <code>button</code> tag defines a clickable button.</p>
+
+<p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+<h1>The data element</h1>
+
+<p>The following example displays product names but also associates each name with a product number:</p>
+
+<ul>
+  <li><data value="21053">Cherry Tomato</data></li>
+  <li><data value="21054">Beef Tomato</data></li>
+  <li><data value="21055">Snack Tomato</data></li>
+</ul>
+
+<h1>The datalist element</h1>
+
+<form action="/action_page.php" method="get">
+  <label for="browser">Choose your browser from the list:</label>
+  <input list="browsers" name="browser" id="browser">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+<h1>The dl, dd, and dt elements</h1>
+
+<p>These three elements are used to create a description list:</p>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>Black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>White cold drink</dd>
+</dl>
+
+<h1>The del element</h1>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+<h1>The details element</h1>
+
+<details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+<h1>The dfn element</h1>
+
+<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+<h1>The dialog element</h1>
+
+<p>This is some text.</p>
+
+<p>This is some text.</p>
+
+<dialog open>This is an open dialog window</dialog>
+
+<p>This is some text.</p>
+
+<p>This is some text.</p>
+
+<p><b>Note:</b> The dialog tag is not supported in Safari and Edge (prior version 79).</p>
+
+<head>
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>The div element</h1>
+
+<div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <p>This is some text in a div element.</p>
+</div>
+
+<p>This is some text outside the div element.</p>
+
+</body>
+<h1>The em element</h1>
+
+<p>You <em>have</em> to hurry up!</p>
+
+<p>We <em>cannot</em> live like this.</p>
+<h1>The embed element</h1>
+
+<embed type="image/jpg" src="img/mountain2.jpg" width="300" height="200">
+<h1>The fieldset element</h1>
+
+<form action="/action_page.php">
+ <fieldset>
+  <legend>Personalia:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+<h1>The figure and figcaption element</h1>
+
+<figure>
+  <img src="img/santorini_greece.jpg" alt="Santorini">
+  <figcaption>Fig.1 - Santorini, Greece.</figcaption>
+</figure>
+<h1>The footer element</h1>
+
+<footer>
+  <p>Author: Hege Refsnes<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+<h1>The form element</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
+<h1>The header element</h1>
+<article>
+   <h1>A heading here</h1>
+    <p>Posted by John Doe</p>
+    <p>Some additional information here</p>
+  </header>
+  <p>Lorem Ipsum dolor set amet....</p>
+</article>
+<h1>The hr element</h1>
+<h1>The Main Languages of the Web</h1>
+
+<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+<hr>
+
+<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+<hr>
+
+<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+<h1>The i element</h1>
+
+<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+<p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+<h1>The iframe element</h1>
+
+<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+</iframe>
+
+<h1>The input element</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+<h1>The ins element</h1>
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+<h1>The kbd element</h1>
+
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+<h1>The label element</h1>
+
+<p>Click on one of the text labels to toggle the related radio button:</p>
+
+<form action="/action_page.php">
+	<input type="radio" id="html" name="fav_language" value="HTML">
+	<label for="html">HTML</label><br>
+	<input type="radio" id="css" name="fav_language" value="CSS">
+	<label for="css">CSS</label><br>
+	<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+	<label for="javascript">JavaScript</label><br><br>
+  <input type="submit" value="Submit">
+</form>
+<h1>The ol and ul elements</h1>
+
+<p>The ol element defines an ordered list:</p>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<p>The ul element defines an unordered list:</p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<h1>The link elements</h1>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<h1>Hello World!</h1>
+
+<h2>I am formatted with a linked style sheet.</h2>
+
+<p>Me too!</p>
+
+</body>
+<h1>The main element</h1>
+
+<main>
+  <h1>Most Popular Browsers</h1>
+  <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+  <article>
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+
+  <article>
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+
+  <article>
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</main>
+<h1>The mark element</h1>
+
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+<h1>The meter element</h1>
+
+<p>The meter element is used to display a gauge:</p>
+
+<label for="disk_c">Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+<label for="disk_d">Disk usage D:</label>
+<meter id="disk_d" value="0.6">60%</meter>
+
+<p><strong>Note:</strong> The meter tag is not supported in Edge 12 (or earlier).</p>
+
+<h1>The nav element</h1>
+
+<p>The nav element defines a set of navigation links:</p>
+
+<nav>
+<a href="/html/">HTML</a> |
+<a href="/css/">CSS</a> |
+<a href="/js/">JavaScript</a> |
+<a href="/python/">Python</a>
+</nav>
+
+<h1>The noscript element</h1>
+
+<p>A browser with JavaScript disabled will show the text inside the noscript element ("Hello World!" will not be displayed).</p>
+
+<script>
+document.write("Hello World!")
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+<h1>The option element</h1>
+
+<label for="cars">Choose a car:</label>
+
+<select id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+
+
+	</body>
+</html>
